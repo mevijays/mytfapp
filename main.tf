@@ -5,12 +5,6 @@ terraform {
       version = "6.30.0"
     }
   }
-  cloud { 
-    organization = "krlab" 
-    workspaces { 
-      name = "myappcli" 
-    } 
-  } 
 }
 provider "aws" {
   region = "us-east-1"
