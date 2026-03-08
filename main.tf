@@ -9,6 +9,7 @@ terraform {
 provider "aws" {
   region = "us-east-1"
 }
+/*
 //--------------------------
 locals {
   vpc_cidr = "172.16.1.0/24"
@@ -105,3 +106,4 @@ output "ec2_ip" {
 output "subnets-data" {
   value = values(aws_subnet.main)[0].id
 }
+*/
